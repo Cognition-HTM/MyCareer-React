@@ -7,6 +7,7 @@ import Signup from "./Pages/Signup"
 import FAQ from './Pages/Student/FAQ';
 import Error from './Pages/Error';
 import CounselorHeader from './Components/Counselor/CounselorHeader'
+import Quiz from "./Components/Student/Quiz";
 export default function App() {
   const {currentUser} = useContext(AuthContext);
   const location = useLocation();
