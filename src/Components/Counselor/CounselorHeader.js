@@ -145,8 +145,8 @@ function CounselorHeader() {
           Current Rating :  {currentUser.rating} / 5
         </p>
 
-        <p class="mt-1.5 text-sm text-gray-500">
-          Great Going !
+        <p class="mt-1.5 text-sm text-gray-500 ">
+          {currentUser.about}
         </p>
       </div>
     </div>
